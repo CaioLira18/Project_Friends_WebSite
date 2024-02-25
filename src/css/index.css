@@ -1,0 +1,441 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.background{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+}
+
+
+.cabecalho{
+   
+    height: 80px; /* Da uma altura max para o cabeçalho*/
+    background-color: #ffffff; /* cor de fundo*/
+    display: flex;  /* Coloca os items um do lado do outro*/
+    justify-content: space-between; /* Espaço entre os filhos*/
+    align-items: center; /* Alinhar os itens no centro */
+    padding: 0 80px  0 80px; /* Espaçamento interno de todos os elementos(Sentido Horario), Cima: 0   Direita: 80   Em baixo: 0  Esquerda: 80 */
+   
+}
+
+
+.cabecalho .logo{
+    
+   display: flex;  /* Coloca os items um do lado do outro*/
+   gap: 15px; /* Espaçamento de 30 px*/
+   
+    
+    
+}
+
+.cabecalho .logo img{
+    width: 150px;
+    
+   
+    
+   
+}
+
+
+.cabecalho .menu{
+    display: flex; /* Coloca os items um do lado do outro*/
+    gap: 30px; /* Espaçamento de 30 px*/
+    
+}
+
+.cabecalho .menu li a{
+    padding: 30px; /* Espaçamento interno */
+    color: #000000; /* Cor da Fonte */
+    font-weight:lighter; /* Fonte forte */
+    font-size: 15px; /* Tamanho da fonte*/
+    font-family: "ChaletLondonNineteenSixty"; /* Fonte estilo*/
+    font-weight: bolder;
+    
+}
+
+
+
+.cabecalho .menu li a:hover{
+   
+
+    border-bottom: 1px solid #000000 ; /* Aplica uma borda branco quanto passar o mause em cima dos itens */
+    font-size: 17px;
+}
+
+
+
+
+.home{
+    display: flex; /* Coloca os items um do lado do outro*/
+    position: relative; /* Adiciona uma posição */
+    min-height: calc(100vh - 80px) ; /* Altura minima */
+
+}
+
+.home::after{
+    
+    content: "";
+    position: absolute; /* absolute: muda o fluxo e tras a imagem pra frente de todos os elementos */
+
+    content: "";
+    position: absolute; /* absolute: muda o fluxo e tras a imagem pra frente de todos os elementos */
+    
+
+    height: 100%; /* Define uma altura */
+    width: 100%; /* Define uma largura */
+}
+
+.icones{
+    list-style: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover padding padrão */
+    text-align: center;
+    margin-top: 70px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.bg3 {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.icones li:last-child {
+    margin-right: 0; /* Remover a margem da última imagem */
+    
+}
+
+.icones ul {
+    display: inline-block;
+    
+}
+
+.icones ul li img{
+    width: 200px; 
+    height: auto; 
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icones img{
+    margin: 20px;
+    margin-top: 50px;
+    transition: all 1s ease-in-out;
+}
+
+
+
+.icones ul li img:hover{
+    width: 300px;   
+}
+
+.icones h1{
+    font-family: "ChaletComprime";
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+.box{
+margin: 0;
+background-color: #330644;
+}
+
+.box_inside{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.box .box_inside{
+    margin-top: 0px;
+}
+.box .box_inside img{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    opacity: 0.2;
+}
+
+.box .box_inside .video{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+   
+}
+
+.box .box_inside .informacoes-LE .logo_hbo{
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Isso manterá a proporção */
+    margin-bottom: 10px; /* Ajuste conforme necessário para espaçamento */
+}
+
+.informacoes-LE {
+    position: absolute;
+    font-family: "ChaletComprime";
+    letter-spacing: 2px;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.box .box_inside .botao-last-evolution{
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 0.5px solid #fff;
+        color: #fff;
+        border-radius: 4px;
+        font-family: "ChaletComprime";
+        font-size: 28px;
+        text-align: center;
+        margin-top: 10px;
+        padding: 20px 60px;
+        text-transform: uppercase;
+        width: 100%;
+        transition: all .3s ease-in;
+    }
+
+    .box .box_inside .botao-last-evolution:hover{
+        background-color: #fff;
+        color: #000;
+    }
+
+
+
+
+
+
+
+
+
+
+
+        
+.last-news{
+    background-color: #fff;
+    text-align: center;
+    font-family: "ChaletComprime";
+    font-size: 30px;
+    padding: 60px;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+    .bg3 {
+        text-align: center;
+        margin-top: 20px; /* Ajuste conforme necessário */
+    }
+
+    .bg3 img {
+        width: 1000px; /* Ajusta a largura da imagem para ocupar todo o espaço do contêiner */
+        transition: all 1s ease-in-out;
+        height: auto; /* Mantém a proporção da imagem */
+    }
+    
+    
+    .bg3 ul li img:hover{
+        
+        width: 1200px;   
+    }
+
+
+
+    .botoes{
+        background-color: #ffffff;
+        list-style: none; /* Remover marcadores de lista */
+        padding: 50px; /* Remover padding padrão */
+        text-align: center;
+
+        
+    }
+
+    
+    .botoes li:last-child {
+        margin-right: 0; /* Remover a margem da última imagem */
+        
+    }
+    
+    .botoes li {
+        display: inline-block;
+        
+    }
+    
+    .botoes  li img{
+        width: 200px; 
+        height: auto; 
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+.botoes .botao-temporadas{
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 0.5px solid #000000;
+        color: #000000;
+        border-radius: 4px;
+        font-family: "ChaletComprime";
+        font-size: 28px;
+        text-align: center;
+        margin-top: 20px;
+        text-transform: uppercase;
+        width: 250px;
+       height: 50px;
+        transition: all .3s ease-in;
+    }
+
+    .botao-temporadas:hover{
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+.botoes h1{
+    font-family: "ChaletComprime";
+    font-size: 40px;
+    padding: 20px;
+}
+
+
+
+.box-image {
+    display: flex; /* Torna os elementos filhos em linha */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    position: relative; /* Adiciona posição relativa */
+    overflow: hidden; /* Esconde o conteúdo que ultrapassa o limite da caixa */
+    margin: 0;
+    padding: 0;
+}
+    
+
+    
+ 
+.box-image .informacoes{
+        font-family: "ChaletComprime";
+        margin: 0;
+        margin-top: 20px;
+        text-align: left;
+        justify-content: left; 
+         
+        
+    }
+
+.informacoes h1{
+        text-align: center;
+        font-size: 55px;
+        
+    }
+.informacoes p {
+        width: 700px;
+        text-align: center;
+        font-size: 35px;
+        padding: 10px;
+        margin-top: 0; /* Remova a margem superior */
+        margin-bottom: 10px; /* Ajuste a margem inferior conforme necessário */
+    }
+
+
+    .container-slider {
+        display: flex;
+        width: 100%;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        margin-top: -250px;
+
+      }
+      
+      .container-images {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 700px;
+      }
+      
+      .slider {
+        opacity: 0;
+        transition: opacity .2s;
+        position: absolute;
+        width: 100%;
+        border-radius: 10px;
+      }
+      
+      .on {
+        opacity: 1;
+      }
+      
+      #prev-button, #next-button {
+        width: 30px;
+        height: 30px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+      }
+      
+      #prev-button img, #next-button img {
+        width: 100%;
+        height: 100%;
+      }
+      
+      #prev-button {
+        transform: rotate(180deg);
+      }
+
+      .personagens {
+        display: flex; /* Define o layout como flexível */
+        align-items: center; /* Alinha os itens verticalmente */
+    }
+    
+    .personagens img {
+        width: 800px; /* Ajusta a largura da imagem conforme necessário */
+        height: auto; /* Mantém a proporção da imagem */
+        margin-right: 10px; /* Adiciona margem à direita para separar a imagem do texto */
+    }
+    
+    .personagens .texto{
+        width: 600px;
+    }
+    .personagens h1 {
+       font-size: 80px;
+      text-align: center;
+    }
+    
+    .personagens h2{
+        font-family: "ChaletComprime";
+        font-size: 30px;
+        text-align: center;
+    }

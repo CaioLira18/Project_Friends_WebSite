@@ -1,0 +1,147 @@
+
+
+
+body{
+    
+    background-color: #000;
+    background-size: cover;
+
+
+    color: #fff;
+}
+
+
+
+.cabecalho{
+   
+    height: 80px; /* Da uma altura max para o cabeçalho*/
+    background-color: #1a1f2e; /* cor de fundo*/
+    display: flex;  /* Coloca os items um do lado do outro*/
+    justify-content: space-between; /* Espaço entre os filhos*/
+    align-items: center; /* Alinhar os itens no centro */
+    padding: 0 80px  0 80px; /* Espaçamento interno de todos os elementos(Sentido Horario), Cima: 0   Direita: 80   Em baixo: 0  Esquerda: 80 */
+    border: 1px solid black;
+}
+
+
+.cabecalho .logo{
+    
+   display: flex;  /* Coloca os items um do lado do outro*/
+   gap: 15px; /* Espaçamento de 30 px*/
+    
+    
+}
+
+.cabecalho .logo img{
+    width: 150px;
+    
+   
+}
+
+
+
+
+.cabecalho .menu{
+    display: flex; /* Coloca os items um do lado do outro*/
+    gap: 30px; /* Espaçamento de 30 px*/
+    
+}
+
+.cabecalho .menu li a{
+    padding: 30px; /* Espaçamento interno */
+    color: #ffffff; /* Cor da Fonte */
+    font-weight:lighter; /* Fonte forte */
+    font-size: 15px; /* Tamanho da fonte*/
+    font-family: "ChaletLondonNineteenSixty"; /* Fonte estilo*/
+    font-weight: bolder;
+    
+}
+
+
+
+.cabecalho .menu li a:hover{
+   
+    transition: all 1s;
+    border-bottom: 1px solid #ffffff ; /* Aplica uma borda branco quanto passar o mause em cima dos itens */
+
+}
+
+
+
+.retangulo {
+    width: 100%; /* Define a largura como 100% da largura da página */
+    height: 5px; /* Define a altura desejada */
+    background-color: #0d0924; /* Cor de fundo do retângulo (azul no exemplo) */
+    box-shadow: 10px 10px 10px black;
+}
+
+.home::after{
+    background-color: blue; /* Cor de Fundo */
+    content: "";
+    position: absolute; /* absolute: muda o fluxo e tras a imagem pra frente de todos os elementos */
+    background: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 35%, transparent 65%); /* Adiciona um efeito de sombra */
+
+
+    content: "";
+    position: absolute; /* absolute: muda o fluxo e tras a imagem pra frente de todos os elementos */
+    
+
+    height: 100%; /* Define uma altura */
+    width: 100%; /* Define uma largura */
+}
+
+.informacoes{
+    color: #e8e8e8;
+    font-family: "ChaletComprime";
+}
+
+.informacoes .title{
+    letter-spacing: 2px;
+    margin: 0;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.fotos{
+ 
+    list-style: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover padding padrão */
+    text-align: center;
+}
+
+.fotos li:last-child {
+    margin-right: 0; /* Remover a margem da última imagem */
+    
+}
+
+.fotos ul {
+    display: inline-block;
+}
+
+.fotos ul li img{
+    width: 450px; 
+    height: auto; 
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fotos img{
+    margin: 20px;
+    margin-top: 50px;
+    transition: all 1s ease-in-out;
+}
+
+
+
+.fotos ul li img:hover{
+    width: 800px;
+  
+  
+    
+}
+
+
+
+
