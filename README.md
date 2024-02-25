@@ -2,7 +2,7 @@
 
 # Project Overview
 
-# The objective of this project is to create an attractive and functional web page for the TV series "Friends"
+- The objective of this project is to create an attractive and functional web page for the TV series "Friends"
 
 - TV series: Friends
 - Agency: Warner Bros
@@ -13,7 +13,7 @@
 - CSS3
 - JavaScript
 
-# Project Structure
+
 
 # The Project is structured as follows:
 
@@ -25,7 +25,7 @@
 
 # Functionalities
 
-# The page includes the following features:
+- The page includes the following features:
 
 - Display of character icons
 - Interactive Images
