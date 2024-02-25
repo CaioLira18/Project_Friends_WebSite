@@ -1,4 +1,4 @@
-#Projeto_Website_GirlGroup
+#Projeto_Friends_Website
 
 # Project Overview
 The objective of this project is to create an attractive and functional web page for the TV series "Friends"
